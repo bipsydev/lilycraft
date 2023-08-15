@@ -1,6 +1,6 @@
-package com.example.example_mod.mixin;
+package dev.bipsy.lilycraft.mixin;
 
-import com.example.example_mod.ExampleMod;
+import dev.bipsy.lilycraft.LilyCraft;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -13,6 +13,6 @@ public class TitleScreenMixin
 	@Inject(method = "init", at = @At("TAIL"))
 	public void onInit(CallbackInfo ci)
 	{
-		ExampleMod.LOGGER.info("This line is printed by an example mod mixin! Here's some callback info: " + ci);
+		LilyCraft.LOGGER.info("This line is printed by an example mod mixin! Here's some callback info: " + ci);
 	}
 }

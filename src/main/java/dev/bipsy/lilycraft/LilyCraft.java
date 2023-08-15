@@ -1,11 +1,11 @@
-package com.example.example_mod;
+package dev.bipsy.lilycraft;
 
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class ExampleMod implements ModInitializer
+public class LilyCraft implements ModInitializer
 {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod name as the logger's name.

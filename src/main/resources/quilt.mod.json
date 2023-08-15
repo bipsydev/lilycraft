@@ -1,17 +1,17 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "dev.bipsy",
+		"id": "lilycraft",
 		"version": "${version}",
 		"metadata": {
 			"name": "LilyCraft+",
-			"description": "A short description of your mod.",
+			"description": "A Vanilla+ styled mod with various expansions!",
 			"contributors": {
-				"Your name here": "Owner"
+				"bipsydev": "Owner"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
+				"homepage": "https://bipsy.dev/",
 				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
 				"sources": "https://github.com/QuiltMC/quilt-template-mod"
 			},
@@ -19,7 +19,7 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "dev.bipsy.lilycraft.LilyCraft"
 		},
 		"depends": [
 			{
@@ -36,5 +36,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "lilycraft.mixins.json"
 }
